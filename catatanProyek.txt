@@ -1,0 +1,9 @@
+INI ADALAH RESTFUL API PROJECT
+NODEMON untuk merunning secara otomatis kode yang sudah diganti
+ESLint untuk membantu menulis kode dengan gaya yang konsisten
+
+Struktur Proyek: (single responsibility approach: menggunakan satu berkas JavaScript untuk satu tujuan)
+server.js : Memuat kode untuk membuat, mengonfigurasi, dan menjalankan server HTTP menggunakan Hapi.
+routes.js : Memuat kode konfigurasi routing server seperti menentukan path, method, dan handler yang digunakan.
+handler.js : Memuat seluruh fungsi-fungsi handler yang digunakan pada berkas routes.
+notes.js : Memuat data notes yang disimpan dalam bentuk array objek.
